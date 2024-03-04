@@ -1,0 +1,349 @@
+.caller-img {
+  height: 80px;
+  width: 80px;
+}
+.logo-img {
+  height: 100px;
+  width: 100px;
+}
+
+.home-bg {
+  padding: 20px;
+  padding-bottom: 0px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-bg {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  width: 70%;
+  margin: 10px;
+}
+.logo-bg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 70%;
+  margin: 10px;
+  margin-top: 0px;
+}
+.logo-num {
+  height: 30px;
+  width: 30px;
+  border: 1px solid green;
+  background-color: green;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+  margin-bottom: 0px;
+}
+.heading-bg {
+  margin: 20px;
+  height: 60px;
+  width: 50%;
+  border: 1px solid #474747;
+  background-color: #474747;
+  color: #f1f2ed;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.productivity-bg {
+  width: 50%;
+  border: 1px solid #474747;
+  background-color: #474747;
+  color: #f1f2ed;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.percentage1 {
+  height: 20px;
+  width: 4%;
+  border: 1px solid green;
+  background-color: green;
+  color: green;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+.productivity-item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+  justify-content: space-between;
+  width: 300px;
+  padding: 20px;
+}
+.productivity-card {
+  display: flex;
+  flex-direction: column;
+}
+.percentage2 {
+  height: 20px;
+  width: 92%;
+  border: 1px solid green;
+  background-color: green;
+  color: green;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+.percentage3 {
+  height: 20px;
+  width: 62%;
+  border: 1px solid green;
+  background-color: green;
+  color: green;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+.percentage4 {
+  height: 20px;
+  width: 93%;
+  border: 1px solid green;
+  background-color: green;
+  color: green;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+.percentage5 {
+  height: 20px;
+  width: 89%;
+  border: 1px solid green;
+  background-color: green;
+  color: green;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+.percentage6 {
+  height: 20px;
+  width: 98%;
+  border: 1px solid green;
+  background-color: green;
+  color: green;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.nav-bg {
+  margin: 20px;
+  margin-bottom: 0px;
+  height: 60px;
+  width: 50%;
+  border: 1px solid #474747;
+  background-color: #474747;
+  color: #f1f2ed;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 150px;
+  align-items: center;
+}
+.icon {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .caller-img {
+    height: 50px;
+    width: 50px;
+  }
+  .logo-img {
+    height: 70px;
+    width: 70px;
+  }
+
+  .home-bg {
+    padding: 20px;
+    padding-bottom: 0px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img-bg {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 90%;
+    margin: 10px;
+  }
+  .logo-bg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 9+0%;
+    margin: 10px;
+    margin-top: 0px;
+  }
+  .logo-num {
+    height: 30px;
+    width: 30px;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-bottom: 0px;
+  }
+  .heading-bg {
+    margin: 20px;
+    height: 60px;
+    width: 90%;
+    border: 1px solid #474747;
+    background-color: #474747;
+    color: #f1f2ed;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .productivity-bg {
+    width: 90%;
+    border: 1px solid #474747;
+    background-color: #474747;
+    color: #f1f2ed;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .percentage1 {
+    height: 20px;
+    width: 4%;
+    border: 1px solid green;
+    background-color: green;
+    color: green;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .productivity-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    width: 250px;
+    padding: 20px;
+  }
+  .productivity-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .percentage2 {
+    height: 20px;
+    width: 58%;
+    border: 1px solid green;
+    background-color: green;
+    color: green;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .percentage3 {
+    height: 20px;
+    width: 72%;
+    border: 1px solid green;
+    background-color: green;
+    color: green;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .percentage4 {
+    height: 20px;
+    width: 63%;
+    border: 1px solid green;
+    background-color: green;
+    color: green;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .percentage5 {
+    height: 20px;
+    width: 69%;
+    border: 1px solid green;
+    background-color: green;
+    color: green;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .percentage6 {
+    height: 20px;
+    width: 78%;
+    border: 1px solid green;
+    background-color: green;
+    color: green;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+
+  .nav-bg {
+    margin: 20px;
+    margin-bottom: 0px;
+    height: 60px;
+    width: 70%;
+    border: 1px solid #474747;
+    background-color: #474747;
+    color: #f1f2ed;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+  }
+  .icon {
+    font-size: 30px;
+  }
+}
